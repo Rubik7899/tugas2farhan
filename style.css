@@ -1,0 +1,117 @@
+/* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #3fb562;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      align-items: center;
+      gap: 20px;
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    .hero img {
+      width: 255px;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 355px;
+    }
+
+    .hero-text h1 {
+      margin-top: 0;
+    }
+
+    .about {
+      background-color: #e3f2fd;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .about .bio-grid h2 {
+        font-size: 20px;
+        color: #2d27e8;
+    }
+
+    .bio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .bio-box {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .portfolio {
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    .portfolio h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #3fb562;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
